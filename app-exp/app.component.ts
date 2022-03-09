@@ -14,6 +14,6 @@ export class AppComponent {
   constructor(private cd: ChangeDetectorRef) { }
 
   ngAfterViewChecked() {
-    this.cd.detectChanges();
+    // this.cd.detectChanges();
   }
 }
